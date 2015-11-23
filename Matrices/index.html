@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Projet Matrices</title>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap-spacelab.min.css">
+		<link rel="stylesheet" href="../css/maths.css">
+	</head>
+	<body>
+		<div class="jumbotron">
+			<h1>TCM-MAT2</h1>
+		</div>
+		<main class="row">
+			<div class="col-sm-3"></div>
+			<form role="form" action="actions.php" method="post" class="col-sm-6">
+  				<div class="radiobutton">
+  					<label>Somme : <input type="radio" name="action" value="Somme" checked/></label>
+  				</div>
+				<div class="radiobutton">
+					<label>Produit : <input type="radio" name="action" value="Produit" /></label>
+				</div>
+				<div class="radiobutton">
+					<label>Transposee : <input type="radio" name="action" value="Transposee" /></label>
+				</div>
+				<div class="radiobutton">
+					<label>Trace : <input type="radio" name="action" value="Trace" /></label>
+				</div>
+				<div class="radiobutton">
+					<label>Gauss : <input type="radio" name="action" value="Gauss" /></label>
+				</div>
+				<button type="submit" class="btn btn-default col-sm-12">OK</button>
+			</form>
+		</main>
+		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+	</body>
+</html>
